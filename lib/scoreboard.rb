@@ -7,4 +7,8 @@ class Scoreboard
     @score = 0
   end 
 
+  def roll(pins)
+    @score += pins
+  end 
+
 end 
